@@ -22,7 +22,13 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("Frontend", policy =>
     {
-        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+        policy
+            .WithOrigins(
+                "http://localhost:5173",
+                "https://calm-field-01c72350f.7.azurestaticapps.net"
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod();
     });
 });
 
