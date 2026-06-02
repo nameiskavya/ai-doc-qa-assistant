@@ -94,16 +94,3 @@ npm run dev
 4. Turn on “Show Sources.”
 5. Show citations and confidence.
 6. Give thumbs up/down feedback.
-
-## Suggested LinkedIn Post Angle
-
-“I built a tool that lets you chat with any PDF — but the real engineering challenge was making the answers traceable. I focused on chunking, retrieval, citations, confidence scoring, and showing the exact source chunks behind each AI answer.”
-
-## Next Improvements
-
-- Replace Chroma with PostgreSQL + pgvector for production-style deployment.
-- Add authentication.
-- Add document collections/projects.
-- Add page-level PDF citations.
-- Add evaluation dashboard for thumbs up/down feedback.
-- Add Azure deployment.

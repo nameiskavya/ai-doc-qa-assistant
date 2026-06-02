@@ -8,7 +8,8 @@ import { ChatMessage, type Message } from "./components/ChatMessage";
 import { ChatInput } from "./components/ChatInput";
 import "./styles.css";
 
-const API_BASE = "http://localhost:5000/api/documents";
+const API_BASE =
+  import.meta.env.VITE_API_BASE ?? "http://localhost:5000/api/documents";
 
 // Stable session ID for the audit footer
 const SESSION_ID = `DIS-${new Date().toISOString().slice(0, 10).replace(/-/g, "")}-${Math.floor(Math.random() * 9000 + 1000)}`;
