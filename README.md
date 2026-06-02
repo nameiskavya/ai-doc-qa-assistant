@@ -85,12 +85,3 @@ cd frontend
 npm install
 npm run dev
 ```
-
-## Demo Flow
-
-1. Upload a PDF or .txt file.
-2. Ask: “What is this document about?”
-3. Ask a specific question.
-4. Turn on “Show Sources.”
-5. Show citations and confidence.
-6. Give thumbs up/down feedback.
